@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ml3 {
+  font-weight: 400;
+  font-size: 3.5em;
+}
+.ml2 {
+  font-weight: 400;
+  font-size: 3.5em;
+}
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
