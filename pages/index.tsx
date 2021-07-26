@@ -42,13 +42,16 @@ export default function Home() {
         <h1 className={`${styles.title} ${styles.heroGradientHeading}`}>
           Van Thong Lee
         </h1>
-        <h1 className="ml2">
+        {/* <h1 className="ml2 hello">
           {'Comming Soon...'.split('').map((v, index) => (
             <span className="letter" key={index}>
               {v}
             </span>
           ))}
-        </h1>
+        </h1> */}
+        <div className="typewriter">
+          <h1>Comming Soon...</h1>
+        </div>
       </main>
     </div>
   )
