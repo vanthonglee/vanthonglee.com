@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={`${styles.title} ${styles.heroGradientHeading}`}>
-          Van Thong Le
+          Van Thong Lee
         </h1>
       </main>
     </div>
