@@ -170,3 +170,7 @@
     background-size: 650%;
   }
 }
+
+.icon:hover {
+  transform: scale(1.1);
+}

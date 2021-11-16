@@ -4,6 +4,12 @@ import styles from '../styles/Home.module.css'
 import { useRef, useEffect } from 'react'
 // import anime, { AnimeInstance } from 'animejs'
 
+import {
+  FaFacebookSquare,
+  FaGithubAlt,
+  FaLinkedin,
+  FaTwitter,
+} from 'react-icons/fa'
 export default function Home() {
   // const animeRef = useRef<HTMLHeadingElement>(null)
 
@@ -54,6 +60,40 @@ export default function Home() {
         </h1> */}
         <div className="typewriter">
           <h1>Comming Soon...</h1>
+        </div>
+        <div style={{ display: 'flex', gap: '12px', marginTop: '24px' }}>
+          <a
+            href="https://www.facebook.com/vanthongleee/"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.icon}`}
+          >
+            <FaFacebookSquare size={32} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vanthonglee/"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.icon}`}
+          >
+            <FaLinkedin size={32} />
+          </a>
+          <a
+            href="https://twitter.com/vanthonglee"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.icon}`}
+          >
+            <FaTwitter size={32} />
+          </a>
+          <a
+            href="https://github.com/vanthonglee"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.icon}`}
+          >
+            <FaGithubAlt size={32} />
+          </a>
         </div>
       </main>
     </div>
