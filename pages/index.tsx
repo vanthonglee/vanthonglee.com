@@ -49,7 +49,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={`${styles.title} ${styles.heroGradientHeading}`}>
-          Van Thong Lee
+          Van Thong (George) Lee
         </h1>
         {/* <h1 className="ml2 hello">
           {'Comming Soon...'.split('').map((v, index) => (
